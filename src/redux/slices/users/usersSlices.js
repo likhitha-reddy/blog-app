@@ -42,7 +42,7 @@ export const registerAdminAction = createAsyncThunk(
     //http call
     try {
       const { data } = await axios.post(
-        `http://localhost:5000/api/admin/register`,
+        `${baseUrl}/api/admin/register`,
         userData,
         config
       );
@@ -66,7 +66,7 @@ export const loginAdminAction = createAsyncThunk(
     try {
       //make http call
       const { data } = await axios.post(
-        `http://localhost:5000/api/admin/login`,
+        `${baseUrl}/api/admin/login`,
         {
           firstName:`${userData.firstName}`,
           lastName:`${userData.lastName}`,
