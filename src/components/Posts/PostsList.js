@@ -42,9 +42,7 @@ export default function PostsList() {
           <div className="container mx-auto px-4">
             <div className="mb-16 flex flex-wrap items-center">
               <div className="w-full lg:w-1/2">
-                <span className="text-green-600 font-bold">
-                  Latest Posts from our awesome authors
-                </span>
+                
                 <h2 className="text-4xl text-gray-300 lg:text-5xl font-bold font-heading">
                   Latest Post
                 </h2>

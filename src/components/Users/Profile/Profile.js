@@ -207,9 +207,7 @@ export default function Profile() {
                                 <h3>
                                   {user?.firstName} {user?.lastName} 
                                 </h3>
-                                <p className="text-indigo-600">
-                                  {/* {user.accountType} */} Account Type
-                                </p>
+                                
                               </div>
                             </div>
                           </div>

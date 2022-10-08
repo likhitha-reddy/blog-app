@@ -39,9 +39,7 @@ const AddNewCategory = () => {
             Add New Category
           </h2>
           <p className="mt-2 text-center text-sm text-gray-600">
-            <p className="font-medium text-indigo-600 hover:text-indigo-500">
-              These are the categories user will select when creating a post
-            </p>
+           
             {/* Display err */}
             <div>
               {appErr || serverErr ? (
