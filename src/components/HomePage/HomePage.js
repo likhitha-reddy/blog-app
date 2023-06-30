@@ -1,5 +1,5 @@
 import React from "react";
-import poster from "../../img/poster.jpeg";
+import poster from "../../img/poster.jpg";
 const HomePage = () => {
   return (
     <>
@@ -11,8 +11,8 @@ const HomePage = () => {
                 Create posts
               </span>
               <h2 className="max-w-2xl mt-12 mb-12 text-6xl 2xl:text-8xl text-white font-bold font-heading">
-                Pen down your ideas{" "}
-                <span className="text-yellow-500">By creating a post</span>
+                Pen down your Experience{" "}
+                <span className="text-yellow-500">Your words are much awaited</span>
               </h2>
              
             </div>

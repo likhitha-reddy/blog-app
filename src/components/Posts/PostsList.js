@@ -68,7 +68,7 @@ export default function PostsList() {
                       <LoadingComponent />
                     ) : catAppErr || catServerErr ? (
                       <h1>
-                        {catServerErr} {catAppErr}
+                       {/* {catServerErr} {catAppErr} */}
                       </h1>
                     ) : categoryList?.length <= 0 ? (
                       <h1 className="text-yellow-400 text-lg text-center">
