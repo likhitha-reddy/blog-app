@@ -171,7 +171,7 @@ const ALogin = () => {
                   </svg>
                 </span>
                 <h2 className="mb-10 text-center text-6xl lg:text-7xl text-gray-300 font-bold font-heading">
-                  Ready to start? Login Now.
+                   Login Now.
                 </h2>
               </div>
             </div>
